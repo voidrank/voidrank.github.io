@@ -771,6 +771,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-counters .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
   color: #52d3aa;
+  opacity: 0;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
@@ -781,6 +782,81 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 18px;
   font-weight: 400;
+}
+
+#fh5co-counters .box-testimony {
+  margin-bottom: 0;
+  float: left;
+}
+#fh5co-counters .box-testimony a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-counters .box-testimony a:hover, #fh5co-counters .box-testimony a:focus, #fh5co-counters .box-testimony a:active {
+  color: white;
+  text-decoration: none;
+}
+#fh5co-counters .box-testimony blockquote {
+  padding-left: 0;
+  border-left: none;
+  padding: 30px;
+  background: #fff;
+  background: #52d3aa;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+#fh5co-counters .box-testimony blockquote:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  border-top: 10px solid black;
+  border-top-color: #fff;
+  border-top-color: #52d3aa;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+#fh5co-counters .box-testimony blockquote p {
+  font-style: italic;
+  color: #fff;
+}
+#fh5co-counters .box-testimony .author {
+  line-height: 20px;
+  color: black;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+#fh5co-counters .box-testimony .author a {
+  color: #52d3aa;
+}
+#fh5co-counters .box-testimony .author a:hover {
+  text-decoration: underline;
+}
+#fh5co-counters .box-testimony .author > figure {
+  float: left;
+  margin-right: 10px;
+}
+#fh5co-counters .box-testimony .author > figure img {
+  width: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+#fh5co-counters .box-testimony .author p {
+  float: left;
+  margin-top: 10px;
+}
+#fh5co-counters .box-testimony .author .subtext {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 400 !important;
 }
 
 #fh5co-testimonials .box-testimony {
